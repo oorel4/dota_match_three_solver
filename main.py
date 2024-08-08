@@ -289,7 +289,7 @@ def main():
     while True:
         image = load_image_from_file()  # Захват экрана по умолчанию
         processed_image = preprocess_image(image)
-        save_image(processed_image, 'result_with_moves.png')
+        #save_image(processed_image, 'result_with_moves.png')
         
         # Детектирование иконок
         icons = detect_icons(processed_image, templates)
